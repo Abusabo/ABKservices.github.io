@@ -1,85 +1,110 @@
 <!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <![endif]-->
 <html>
     <head>
-        <title>
-            ABK
-        </title>
-        <link rel="stylesheet" href="styles.css">
-
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.3/css/fontawesome.min.css">
     </head>
     <body>
-        <nav>
-            <h1>ABK</h1>
-            <div class="nav-ul">
-                <ul>
-                    <li><a href="">Home</a></li>
-                    <li><a href="">Products</a></li>
-                    <li><a href="">Contact Us</a></li>
-                    <li><a href="">About</a></li>
-                    
-
-                </ul>
-
-            </div>
-            <div class="btn">
-                <li><a href="">Pre-Use</a></li>
-                <button>BUY</button>
-            </div>
-        </nav>
-        <div class="container">
-            <img src="main.jpg" alt="" class="main">
-            <img src="first.jpg" alt="" class="second">
-            <p>See More Images</p>
-        </div>
-        <div class="text-container">
-            <h2>Home to more than 500 presets. </h2>
-            <p>pick from a variety of presets that suite your tastes<br> from ashy to monochrome, for photoshop, premiere pro e.t.c.</p>
-            <li><a href="">see Plans</a></li>
-            <button>Buy Presets</button>
-        </div>
-        <section>
-            <div class="about">
-
+        <section class="header">
+            <nav>
+                <h2>ABKServices</h2>
+                <div class="nav-links"  id="navLinks">
+                    <i class="fa fa-times" onclick="hidemenu()"></i>
+                    <ul>
+                        <li><a href="">Home</a></li>
+                        <li><a href="">Products</a></li>
+                        <li><a href="">About</a></li>
+                        <li><a href="">Contact Us</a></li>
+                    </ul>
+                </div>
+                <i class="fa fa-bars"  onclick="showmenu()"></i>
+            </nav>
+            <div class="text-box">
+                <h1>Home to more than 500 presets.</h1>
+                <p>Pick from a variety of presets that suites your taste<br>from ashy to monochrome for photoshop,premiere pro e.t.c </p>
+                <a href="" class="hero-btn">Buy Presets</a>
+                <a href="" class="hero-btn">See More</a>
             </div>
         </section>
-        <!--Footer-->
-
-
-        <section class="footer-container">
-            <div class="footer">
-                <div class="footer-heading footer-1">
-                    <h2>About Us</h2>
-                    <a href="#">Blog</a>
-                
-                    <a href="#">Customers</a>
-                  
-                    <a href="#">Terms of Service</a>
+        <!--end of first section-->
+        <section class="course">
+            <h1>Products we offer</h1>
+            <p>Pick from a variety of presets that suites your taste from ashy to monochrome for photoshop,premiere pro e.t.c</p>
+            <div class="row">
+                <div class="course-col">
+                    <h3>Free</h3>
+                    <p>Pick from our free presets, enjoy services that are rendered free but with limitations.</p>
                 </div>
-                <div class="footer-heading footer-2">
-                    <h2>Contact Us</h2>
-            
-                    <a href="#">Support</a>
-                    <a href="#">Contact</a>
-                    <a href="#">Part Payment</a>
+                <div class="course-col">
+                    <h3>Individual</h3>
+                    <p>enjoy more using our individual plan. enjoy more than 1300 presets, monthyly newsletter and alot more for just $35/month.</p>
                 </div>
-                <div class="footer-heading footer-3">
-                    <h2>Social Media</h2>
-                    <a href="#">Facebook</a>
-                    <a href="#">Instagram</a>
-                    <a href="#">Twitter</a>
-                    <a href="#">Youtube</a>
-                </div>
-                
-                <div class="personal">
-                    <h2>ABK</h2>
-                    <p>Vana-viru 30 Talinn<br>Talinn EE <br><a href="">abkundi001@gmail.com</a><br>+2349037671903</p>
-
-                    
+                <div class="course-col">
+                    <h3>Enterprise</h3>
+                    <p>our enterprise plan was made for  entites and was also ensured that they enjoy more perks than the free plan and individual plan. perks such as ID key for product use,more than 5000 presets available and also yearly billing of $400/year </p>
                 </div>
             </div>
         </section>
+        <section class="campus">
+            <h1>Our products</h1>
+            <p>we offer  our services to platforms such as Adobe photoshop, Adobe Premiere Pro, Adobe Lightroom e.t.c,. we also offer courses of the mentioned platforms from beginner to advanced for just $200.  </p>
+            <div class="row">
+                <div class="campus-col">
+                    <img src="pexels-edgar-rodrigo-12315477.jpg"> 
+                    <div class="layer">
+                        <h3>Premiere Pro</h3>
+                    </div>
+                </div>
+                <div class="campus-col">
+                    <img src="pexels-pouriya-kafaei-13141196.jpg"> 
+                    <div class="layer">
+                        <h3>photoshop</h3>
+                    </div>
+                </div>
+                <div class="campus-col">
+                    <img src="pexels-nothing-ahead-12849457.jpg"> 
+                    <div class="layer">
+                        <h3>Others</h3>
+                    </div>
+                </div>
+            </div>
+        </section>
+         
+          <!---call to action--->
+          <section class="cta">
+            <h1>Enroll for our various online courses <BR>anywhere from the world</h1>
+            <a href="" class="hero-btn">CONTACT US</a>
+        </section>
+
+         <!---footer--->
+         <section class="footer">
+             <h4>About Us</h4>
+             <p>Home to more than 500 presets.
+                Pick from a variety of presets that suites your taste<br>from ashy to monochrome for photoshop,premiere pro e.t.c </p>
+             <p>Abubakar sabo kundi<br> No 30 Vana-viru, Tallin</p>
+             <a href="">abkundi001@gmail.com</a>
+         </section>
 
 
-
+        
+        
+        <script>
+              var navLinks = document.getElementById("navLinks");
+            function showmenu(){
+                navLinks.style.right ='0';
+            }
+            function hidemenu(){
+                navLinks.style.right ='-200px';
+            }
+        </script>
     </body>
 </html>
