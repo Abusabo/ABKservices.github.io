@@ -243,3 +243,144 @@ h3{
 .footer p{
     color: #000625;
 }
+
+.terms {
+    background-color: #000625;
+    width: 50vw;
+    height: 60vh;
+    position: absolute;
+    left: 300px;
+    padding: 60px;
+    border-radius: 10px;
+    top: 60px;
+}
+.terms h1{
+    color: #fff;
+    position: absolute;
+    
+    top: 20px;
+    
+}
+.terms p{
+    position: absolute;
+    top: 100px;
+    padding-right: 50px;
+    font-size: 15px;
+}
+.IP{
+    background-color: #000625;
+    width: 50vw;
+    height: 60vh;
+    position: absolute;
+    left: 300px;
+    top: 750px;
+    padding: 60px;
+    border-radius: 10px;
+}
+.IP h2{
+    color: #fff;
+}
+.IP p{
+    font-size: 20px;
+    line-height: 25px;
+}
+.UP{
+    background-color: #000625;
+    width: 50vw;
+    height: 60vh;
+    position: absolute;
+    left: 300px;
+    top: 1500px;
+    padding: 60px;
+    border-radius: 10px;
+}
+.UP h2{
+    color: #fff;
+}
+.UP p{
+    font-size: 20px;
+    line-height: 25px;
+}
+.user{
+    background-color: #000625;
+    width: 50vw;
+    height: 30vh;
+    position: absolute;
+    left: 300px;
+    top: 2250px;
+    padding: 60px;
+    border-radius: 10px;
+}
+.user h2{
+    color: #fff;
+}
+.user p{
+    font-size: 20px;
+    line-height: 25px;
+}
+.PP{
+    background-color: #000625;
+    width: 50vw;
+    height: 60vh;
+    position: absolute;
+    left: 300px;
+    top: 3000px;
+    padding: 60px;
+    border-radius: 10px;
+}
+.PP h2{
+    color: #fff;
+}
+.PP p{
+    font-size: 20px;
+    line-height: 25px;
+}
+.PA{
+    background-color: #000625;
+    width: 50vw;
+    height: 150vh;
+    position: absolute;
+    left: 300px;
+    top: 3750px;
+    padding: 60px;
+    border-radius: 10px;
+}
+.PA h2{
+    color: #fff;
+}
+.PA p{
+    font-size: 20px;
+    line-height: 25px;
+}
+@media(max-width: 700px){
+    .terms{
+        left: 143px;
+        overflow-x: hidden;
+        padding-right: 20px;
+    }
+    .IP{
+        left: 143px;
+        overflow-x: hidden;
+        padding-right: 20px;
+    }
+    .user{
+        left: 143px;
+        overflow-x: hidden;
+        padding-right: 20px;
+    }
+    .PA{
+        left: 143px;
+        overflow-x: hidden;
+        padding-right: 20px;
+    }
+    .PP{
+        left: 143px;
+        overflow-x: hidden;
+        padding-right: 20px;
+    }
+    .UP{
+        left: 143px;
+        overflow-x: hidden;
+        padding-right: 20px;
+    }
+}
